@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MapFluent")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07c4d6fd63e224b7fd566a78034c47baa6aaa1d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3f9a4aaa7459a9ad505d213bdd4a5fd511f100c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MapFluent")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MapFluent")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
