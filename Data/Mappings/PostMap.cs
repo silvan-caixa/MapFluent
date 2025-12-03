@@ -41,6 +41,20 @@ public class PostMap : IEntityTypeConfiguration<Post>
         builder.Property(x => x.DataCriacao);
 
         //Index
+        builder.HasIndex(x => x.Titulo)
+            .IsUnique();
+
+        //Relacionamento Usuario
+        builder.HasOne(x => x.Usuario)
+        .WithMany(x => x.Posts)
+        .HasConstraintName("FK_POST_USUARIO")
+        .OnDelete(DeleteBehavior.Cascade);
+
+        // Relacionamento Categoria
+        builder.HasOne(x => x.Categoria)
+        .WithMany(x => x.Posts)
+        .HasConstraintName("FK_POST_CATEGORIA")
+        .OnDelete(DeleteBehavior.Cascade);
 
     }
 }

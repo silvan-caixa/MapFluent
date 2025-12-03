@@ -12,4 +12,5 @@ public class Post
     public DateTime DataAtualizacao { get; set; }
     public DateTime DataCriacao { get; set; }
     public Categoria? Categoria { get; set; }
+    public List<Role> Roles { get; set; } = new();
 }
